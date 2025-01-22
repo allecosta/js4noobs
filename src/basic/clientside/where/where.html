@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Inserindo o script no head -->
+  <script>
+      function myFuncHead() {
+          document.getElementById('demo2').innerHTML="Paragrafo 2";
+      }
+  </script>
+</head>
+<body>
+  <p id="demo"></p>
+
+  <p id="demo2">Paragrafo 1</p>
+  <button type="button" onclick="myFuncHead()">ClickMe</button>
+
+  <p id="demo3">Paragrafo 3</p>
+  <button type="button" onclick="myFuncBody()">ClickMe</button>
+
+  <!-- Inserindo o script no body -->
+  <script>
+    function myFuncBody() {
+        document.getElementById('demo3').innerHTML="Paragrafo 4"
+    }
+  </script>
+
+  <!-- Inserindo o script de um arquivo externo -->
+  <script src="js/script.js"></script>
+</body>
+</html>
+

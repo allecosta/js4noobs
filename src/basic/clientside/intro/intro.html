@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <h2>Entendendo o Funcionamento da Web</h2>
+
+  <p id="demo">Modificando o conteúdo do HTML!</p>
+
+  <button type="button"
+    onclick="document.getElementById('demo').innerHTML='Olá Mundo JS!'">ClickMe
+  </button>
+
+  <h2>Que se Faça a Luz!</h2>
+
+  <p>Modificando o valor do atributo da imagem!</p>
+
+  <button onclick="document.getElementById('myImage').src='on.gif'">Ligar</button>
+
+  <img id="myImage" src="off.gif" style="width: 100px" alt="Imagem da Lâmpada">
+
+  <button onclick="document.getElementById('myImage').src='off.gif'">Desligar</button>
+
+  <p id="demo2">Modificando o estilo do elemento do HTML!</p>
+
+  <button type="button"
+    onclick="document.getElementById('demo2').style.fontSize='30px'">ClickMe
+  </button>
+
+  <p>Visualizando elemento HTML oculto!</p>
+  <p id="demo3" style="display: none">Olá Mundo JS!</p>
+
+  <button type="button"
+    onclick="document.getElementById('demo3').style.display='block'">ClickMe
+  </button>
+
+</body>
+</html>
